@@ -11,12 +11,13 @@ and open the template in the editor.
     </head>
     <body>
         <form action="calcula.php" method="POST">
-			<input type="number" name="Edad1" id="">
-			<input type="number" name="Edad2" id="">
-			<input type="number" name="Edad3" id="">
-			<input type="number" name="Edad4" id="">
-			<input type="number" name="Edad5" id="">
-			<input type="number" name="Edad6" id="">	
+            <input type="number" name="Edad1" id="">
+            <input type="number" name="Edad2" id="">
+            <input type="number" name="Edad3" id="">
+            <input type="number" name="Edad4" id="">
+            <input type="number" name="Edad5" id="">
+            <input type="number" name="Edad6" id="">	
+            <input type="submit">
 	</form>
     </body>
 </html>
