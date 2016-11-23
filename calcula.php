@@ -24,8 +24,8 @@ and open the template in the editor.
         }
         echo "El resultado es $sumeo";
         
-        $medoa = $suma/count($valor);
-        echo "<br> La media es $mitja";
+        $media = $suma/count($valor);
+        echo "<br> La media es $media";
         ?>
     </body>
 </html>
