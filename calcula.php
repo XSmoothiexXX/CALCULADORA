@@ -17,6 +17,15 @@ and open the template in the editor.
         $edades[] = $POST_['Edad4'];
         $edades[] = $POST_['Edad5'];
         $edades[] = $POST_['Edad6'];
+        
+        $sumeo = 0;
+        foreach ($edades as $num){
+            $sumeo = $sumeo+$num;
+        }
+        echo "El resultado es $sumeo";
+        
+        $medoa = $suma/count($valor);
+        echo "<br> La media es $mitja";
         ?>
     </body>
 </html>
